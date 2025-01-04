@@ -49,5 +49,4 @@ router.get('/:tasteType', async(req, res) =>{
         res.status(500).json({err: 'Internal Server error'})
     }
 })
-// Comment Added
 module.exports = router;
